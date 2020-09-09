@@ -1,0 +1,6 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    image: mattipaksula/alpine-libwebsockets-with-libuv:3.12
